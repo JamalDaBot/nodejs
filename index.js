@@ -34,7 +34,7 @@ async function checkStock() {
 function sendDaMessage(daChanges) {
     https.post(
         'https://discord.com/api/webhooks/1151708354650054708/ugxYceuJrLyZTBF5MkXrxhy1DDdRKKWAW9khdTJaw-_kVDo7Q8ory3s-Ccl4-4_sy6GR',
-            { json: { content: 'somethin in da stock change  <@&878330216156631071> : ' + daChanges, username: 'hyper x furniture' } },
+            { json: { content: 'somethin in da stock change  <@&878330216156631071> : ' + daChanges, username: 'naruto' } },
             function (error, response, body) {
                 if (!error && response.statusCode == 200) {
                     console.log(body);
