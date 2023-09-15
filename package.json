@@ -6,6 +6,8 @@
   "author": "alphasec",
   "license": "MIT",
    "dependencies": {
+     "ikea-availability-checker": "latest",
+     "request": "latest"
   },
   "scripts": {
     "start": "node index.js"
