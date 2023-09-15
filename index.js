@@ -12,7 +12,7 @@ var lastCheckedAt = null;
 var runOnce = false;
 
 async function checkStock() {
-    const result = await checker.availability('004', '00263850');
+    const result = await checker.availability('004', '79017837');
     if (lastStockChange === null) lastStockChange = result.stock;
     if (lastProbabilityChange === null) lastProbabilityChange = result.probability;
     lastCheckedAt = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
