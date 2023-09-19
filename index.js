@@ -58,5 +58,6 @@ server.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}/`);
 });
 
+sendDaMessage("YO WATUP, I B WATCHIN");
 
 stockInterval = setInterval(checkStock, 1000*30);
